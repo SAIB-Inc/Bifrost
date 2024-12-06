@@ -1,6 +1,6 @@
 {
   "name": "@saibdev/bifrost",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "An interface for Cardano Wallets - CIP30 Standard https://github.com/cardano-foundation/CIPs/tree/master/CIP-0030",
   "main": "./lib/index.js",
   "exports": {
