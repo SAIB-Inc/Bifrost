@@ -23,4 +23,4 @@ jobs:
       - run: corepack prepare pnpm@latest --activate
       - run: pnpm install
       
-      - run: pnpm publish
+      - run: pnpm publish --no-git-checks
