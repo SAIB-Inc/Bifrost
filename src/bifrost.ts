@@ -1,6 +1,9 @@
 import { CardanoWallet } from "./types";
 
 export function getWallets(): Array<CardanoWallet> {
+    
+    if(typeof window === 'undefined') return [];
+
     const result: Array<CardanoWallet> = [];
     const cardanoNamespace = window.cardano;
 
