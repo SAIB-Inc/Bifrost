@@ -18,7 +18,7 @@
     "dev": "tsup --watch",
     "lint": "eslint \"src/**/*.ts*\"",
     "clean": "rm -rf node_modules && rm -rf lib",
-    "prepublish": "npm run build"
+    "prepublish": "pnpm run build"
   },
   "keywords": [
     "cardano",
